@@ -6,4 +6,5 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   <artifactId>Spring-Boot-Base</artifactId>
+  <description>基础模块</description>
 </project>

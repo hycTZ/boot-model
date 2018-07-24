@@ -5,30 +5,19 @@
     <artifactId>Spring-Boot-Demo</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>Spring-Boot-App</artifactId>
+  <artifactId>Spring-Boot-User</artifactId>
+  <description>用户模块</description>
   
   <dependencies>
-  	<dependency>
-	    <groupId>com.yarm</groupId>
-	  	<artifactId>Spring-Boot-Redis</artifactId>
-  		<version>${spring-boot-demo.version}</version>
-  	</dependency>
-  
-  	<dependency>
-	    <groupId>com.yarm</groupId>
-	  	<artifactId>Spring-Boot-Base</artifactId>
-  		<version>${spring-boot-demo.version}</version>
-  	</dependency>
-  
-  	<dependency>
+    <dependency>
 	    <groupId>com.yarm</groupId>
 	  	<artifactId>Spring-Boot-Mybatis</artifactId>
   		<version>${spring-boot-demo.version}</version>
   	</dependency>
   	
-  	<dependency>
+    <dependency>
 	    <groupId>com.yarm</groupId>
-	  	<artifactId>Spring-Boot-User</artifactId>
+	  	<artifactId>Spring-Boot-Base</artifactId>
   		<version>${spring-boot-demo.version}</version>
   	</dependency>
   </dependencies>

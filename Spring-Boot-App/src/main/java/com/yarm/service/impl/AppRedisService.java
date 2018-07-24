@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import com.yarm.redis.service.RedisService;
 
 @Service("appRedisService")
-public class RedisServiceImpl {
+public class AppRedisService {
 
 	@Autowired
 	private RedisService redisService;

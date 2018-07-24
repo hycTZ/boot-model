@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yarm.mybatis.mapper.UserMapper">
+	<resultMap id="userMap" type="com.yarm.base.pojo.User">
+		<id property="id" column="id" />
+		<result property="userId" column="user_id" />
+		<result property="userName" column="user_name" />
+	</resultMap>
+
+<insert id="insertUser">
+</insert>
+
+<delete id="deleteUserById">
+</delete>
+
+<update id="updateUserById">
+</update>
+
+<select id="selectUser" resultMap="userMap">
+select id,user_id,user_name from user
+</select>
+
+
+</mapper>

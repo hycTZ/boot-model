@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.yarm.service.impl.RedisServiceImpl;
+import com.yarm.service.impl.AppRedisService;
 
 @RestController
 @RequestMapping(value="redis")
 public class RedisController {
 
 	@Autowired
-	private RedisServiceImpl redisService;
+	private AppRedisService redisService;
 	
 	@RequestMapping(value = "{id}.json", method = RequestMethod.GET)
 	public Map<String, Object> getRedisJson(@PathVariable("id") String id){
