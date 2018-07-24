@@ -15,6 +15,7 @@
   	<module>App</module>
   	<module>Spring-Boot-App</module>
   	<module>Spring-Boot-Redis</module>
+  	<module>Spring-Boot-Base</module>
   </modules>
   
    <properties>
@@ -69,7 +70,13 @@
            <artifactId>ojdbc6</artifactId>
            <version>11.2.0</version>
        </dependency> -->
-
+       
+        <!-- MySQL 连接驱动依赖 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        
        <dependency>
            <groupId>commons-lang</groupId>
            <artifactId>commons-lang</artifactId>
