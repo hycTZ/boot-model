@@ -18,6 +18,9 @@
   	<module>Spring-Boot-Base</module>
   	<module>Spring-Boot-Mybatis</module>
   	<module>Spring-Boot-User</module>
+  	<module>com.yarm.ldap</module>
+  	<module>ldap</module>
+  	<module>Spring-Boot-Ldap</module>
   </modules>
   
    <properties>
@@ -80,6 +83,12 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
         
+        <!-- ldap -->
+ 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-ldap</artifactId>
+		</dependency>  
+		     
        <dependency>
            <groupId>commons-lang</groupId>
            <artifactId>commons-lang</artifactId>
