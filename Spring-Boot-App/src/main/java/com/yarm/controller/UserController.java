@@ -25,10 +25,10 @@ public class UserController {
 	public Map<String, Object> getRedisJson(){
 		Map<String, Object> map = new HashMap<>();
 		try {
-			map.put("status", 200);
+			map.put("code", 200);
 			map.put("data", this.appUserService.selectUser());
 		} catch (Exception e) {
-			map.put("status", 500);
+			map.put("code", 500);
 			map.put("data", "");
 			e.printStackTrace();
 		}

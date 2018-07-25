@@ -24,7 +24,7 @@ public class RedisController {
 		Map<String, Object> map = new HashMap<>();
 		try {
 			String redis = redisService.getRedis(id);
-			map.put("status", 200);
+			map.put("code", 200);
 			map.put("data", redis);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -37,7 +37,7 @@ public class RedisController {
 		Map<String, Object> map = new HashMap<>();
 		try {
 			String redis = redisService.getRedis(id);
-			map.put("status", 200);
+			map.put("code", 200);
 			map.put("data", redis);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -50,7 +50,7 @@ public class RedisController {
 		Map<String, Object> map = new HashMap<>();
 		try {
 			 redisService.setRedis(key, value);
-			map.put("status", 200);
+			map.put("code", 200);
 			map.put("data", "");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -66,7 +66,7 @@ public class RedisController {
 			String key = reqMap.get("key").toString();
 			String value = reqMap.get("value").toString();
 			
-			map.put("status", 200);
+			map.put("code", 200);
 			map.put("data", this.redisService.setRedis(key, value));
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -82,7 +82,7 @@ public class RedisController {
 			String key = reqMap.get("key").toString();
 			String value = reqMap.get("value").toString();
 			
-			map.put("status", 200);
+			map.put("code", 200);
 			map.put("data", this.redisService.updateRedis(key, value));
 		} catch (Exception e) {
 			e.printStackTrace();

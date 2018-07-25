@@ -31,5 +31,11 @@
 	  	<artifactId>Spring-Boot-User</artifactId>
   		<version>${spring-boot-demo.version}</version>
   	</dependency>
+  	
+  	<dependency>
+	    <groupId>com.yarm</groupId>
+	  	<artifactId>Spring-Boot-Ldap</artifactId>
+  		<version>${spring-boot-demo.version}</version>
+  	</dependency>
   </dependencies>
 </project>
