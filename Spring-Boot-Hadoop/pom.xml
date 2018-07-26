@@ -48,10 +48,10 @@
 		<artifactId>spring-data-hadoop</artifactId>
 		<version>${spring-data-hadoop.version}</version>
 		<exclusions>
-                <exclusion>
+               <exclusion>
 					<groupId>javax.servlet</groupId>
 					<artifactId>servlet-api</artifactId>
-			    </exclusion>
+			   </exclusion>
 		</exclusions>
 	  </dependency>
   </dependencies>
