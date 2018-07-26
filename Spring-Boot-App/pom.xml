@@ -37,5 +37,11 @@
 	  	<artifactId>Spring-Boot-Ldap</artifactId>
   		<version>${spring-boot-demo.version}</version>
   	</dependency>
+  	
+  	<dependency>
+	    <groupId>com.yarm</groupId>
+	    <artifactId>Spring-Boot-Hadoop</artifactId>
+  		<version>1.0.0-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 </project>
