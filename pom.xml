@@ -10,7 +10,6 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.10.RELEASE</version>
   </parent>
-  
   <modules>
   	<module>App</module>
   	<module>Spring-Boot-App</module>

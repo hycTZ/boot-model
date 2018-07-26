@@ -9,9 +9,13 @@ SpringBoot＋maven＋mysql＋hadoop相关组件、hive等
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
+1.Spring-Boot-App
+2.Spring-Boot-Base
+3.Spring-Boot-Hadoop
+4.Spring-Boot-Ldap
+5.Spring-Boot-Mybatis
+6.Spring-Boot-Redis
+7.Spring-Boot-User
 
 #### 参与贡献
 
