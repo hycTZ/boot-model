@@ -9,13 +9,13 @@ SpringBoot＋maven＋mysql＋hadoop相关组件、hive等
 
 #### 使用说明
 
-1.Spring-Boot-App 这个是启动类即main
-2.Spring-Boot-Base 这个是基础模块，包含实体类
-3.Spring-Boot-Hadoop 这个是hadoop相关组件的代码
-4.Spring-Boot-Ldap 这个是ldap的连接查询
-5.Spring-Boot-Mybatis 这个是springBoot连接Mybatis的逻辑
-6.Spring-Boot-Redis SpringBoot集成Redis模块，后续会做集群，目前还是单个redis
-7.Spring-Boot-User 这个是用户信息的模块 
+1. Spring-Boot-App 这个是启动类即main
+2. Spring-Boot-Base 这个是基础模块，包含实体类
+3. Spring-Boot-Hadoop 这个是hadoop相关组件的代码
+4. Spring-Boot-Ldap 这个是ldap的连接查询
+5. Spring-Boot-Mybatis 这个是springBoot连接Mybatis的逻辑
+6. Spring-Boot-Redis SpringBoot集成Redis模块，后续会做集群，目前还是单个redis
+7. Spring-Boot-User 这个是用户信息的模块 
 
 #### 参与贡献
 
