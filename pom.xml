@@ -36,6 +36,7 @@
        <spring-boot-demo.version>1.0.0-SNAPSHOT</spring-boot-demo.version>
        <spring-data-hadoop.version>2.4.0.RELEASE</spring-data-hadoop.version>
        <hive.version>1.2.1</hive.version>
+       <jdk.version>1.8</jdk.version>
    </properties>
 
    <dependencies>
@@ -102,7 +103,13 @@
            <artifactId>commons-lang3</artifactId>
            <version>${apache.version}</version>
        </dependency>
-       
+       <dependency>
+            <groupId>jdk.tools</groupId>
+            <artifactId>jdk.tools</artifactId>
+            <version>${jdk.version}</version>
+            <scope>system</scope>
+            <systemPath>${JAVA_HOME}/lib/tools.jar</systemPath>
+       </dependency>       
    </dependencies>
 
    <profiles>
